@@ -1,5 +1,5 @@
 # German language learning game
-##written in Python
+## written in python by me and openAI
 
 The program includes 3 small games:
 
