@@ -1,13 +1,13 @@
 # German language learning game
-## written in python by me and openAI
+## written in python
 
-The program includes 3 small games:
+### The program includes 3 small games:
 
 1. Word Quiz
 2. Question Maker Game
 3. Question words practicing
 
-You can choose the number of test items (10,25,50 or 100). I filter the user input, so you can only enter valid numbers.
+### You can choose the number of test items (10,25,50 or 100). I filter the user input, so you can only enter valid numbers.
 Like this: 
 
 `def get_num_questions():
@@ -21,7 +21,7 @@ Like this:
         except ValueError:
             print("Invalid choice. Please enter a valid number (10, 25, 50, 100).")`
 
-Operation: 
+### Operation: 
 
 Run the **main.py** file, to play.
 The program reads different CSV files to load the words/sentences:
@@ -34,4 +34,4 @@ You can replace the .csv files to **use your own words**, but you should take ca
 
 After you complete the test, you'll see the final results. Then press '**X**' to exit, and press '**S**' to start again.
 
-
+I used AI and prompting to help me during de process.
